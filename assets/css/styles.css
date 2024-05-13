@@ -35,9 +35,7 @@ h1 {
 p {
   transition: transform 0.3s;
 }
-h1:hover,
-p:hover,
-.imgItself:hover {
+h1:hover {
   transform: scale(1.01);
 }
 .quote {
