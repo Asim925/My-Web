@@ -1,0 +1,36 @@
+.skill-container.reverse {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 930px) {
+  .skill-container,
+  .homeHeader,
+  .profileStats {
+    flex-direction: column !important;
+  }
+
+  .Box {
+    padding: 5;
+    margin: 5;
+  }
+
+  .skillText {
+    padding-top: 1rem;
+    text-align: center;
+    margin-left: 0 !important;
+  }
+
+  .skillImage {
+    width: 22rem !important;
+  }
+}
+
+.selected-tab {
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+}
+
+.selected-tab,
+.tab {
+  font-size: 1.2rem;
+}
