@@ -3,10 +3,8 @@ import {
   Button,
   Divider,
   Flex,
-  HStack,
   Heading,
   Icon,
-  Link,
   Text,
 } from "@chakra-ui/react";
 import {
